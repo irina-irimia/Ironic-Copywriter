@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const fileUploadInput = document.getElementById('file-upload');
 
     // --- ATENTIE: Inlocuieste cu datele tale ---
-    const OPENAI_API_KEY ='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';
+    const OPENAI_API_KEY ='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';
     const ASSISTANT_ID = 'asst_oNQl2GoEJlvaMbTcpog6A7IZ';
 
     let threadId = localStorage.getItem('openai_thread_id');
