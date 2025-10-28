@@ -1,0 +1,2 @@
+# Ironic-Copywriter
+Asistent OpenAI
