@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ironic Copywriter</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Adaugam o librarie de iconite pentru butoane -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <h1>Ironic Copywriter</h1>
+        <h2>Asistentul tău de încredere în jungla social media</h2>
+        <h3>Creat de Irina Irimia</h3>
+    </header>
+
+    <main id="chat-container">
+        <div id="chat-box">
+            <!-- Istoricul conversatiei va fi incarcat aici de JavaScript -->
+        </div>
+        <div id="input-container">
+            <textarea id="user-input" placeholder="Scrie aici... cum ai scrie dacă ai fi genial." rows="3"></textarea>
+            <div id="button-container">
+                <button id="send-btn" title="Trimite Dialog">
+                    <i class="fa-solid fa-paper-plane"></i>
+                </button>
+                <!-- Butonul de upload este stilizat, dar functionalitatea de procesare a fisierului necesita un backend -->
+                <input type="file" id="file-upload" hidden>
+                <button id="upload-btn" title="Încarcă Materiale">
+                    <i class="fa-solid fa-upload"></i>
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; Irina Irimia</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
