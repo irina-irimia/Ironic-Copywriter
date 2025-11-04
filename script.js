@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- ATENTIE: Inlocuieste cu datele tale ---
     const OPENAI_API_KEY ='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';
-    const ASSISTANT_ID = 'asst_YNswk96QGkHIwRu2rQyVP47O';
+    const ASSISTANT_ID = 'asst_QjWpOCryoT4ZHOToS4e4DCHe';
 
     let threadId = localStorage.getItem('openai_thread_id');
     let chatHistory = JSON.parse(localStorage.getItem('chatHistory')) || [];
