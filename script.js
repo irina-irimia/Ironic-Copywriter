@@ -6,8 +6,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const fileUploadInput = document.getElementById('file-upload');
 
     // --- ATENTIE: Inlocuieste cu datele tale ---
-    const OPENAI_API_KEY ='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';
-    const ASSISTANT_ID = 'asst_oNQl2GoEJlvaMbTcpog6A7IZ';
+    const OPENAI_API_KEY ='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';
+    const ASSISTANT_ID = 'asst_R9pbbeKAhYDt95Cyk7bYFLPa';
 
     let threadId = localStorage.getItem('openai_thread_id');
     let chatHistory = JSON.parse(localStorage.getItem('chatHistory')) || [];
